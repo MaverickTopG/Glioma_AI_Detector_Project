@@ -19,19 +19,19 @@
 # Running the project:
  #  1) Download the Data.zip and upload it to your Google Drive 
 #   2) Download the Glioma_AI_detector.ipynb and upload it to your Google Drive
-#   2) Download the Train_Classification_Model_for_Glioma and upload it to your Google Drive
-#   2) Upload the zip to the Glioma_AI_detector.ipynb and unzip it by running the second cell. After unzipping, comment the entire second cell and run all the cells
-#   2) Open the provided Jupyter notebook (Train_Classification_Model_for_Glioma.ipynb) in Google Colab or your local environment and run all the cells until the 9th cell. 
-#   3) After running the 9th cell, you should get an onnx file like 'resnet18.onnx'
-#   2) In your Nvidia Jetson, add a folder called Glioma_AI_detector
-#   2) Unzip the Data.zip and drag and drop it inside the folder
-#   2) Download and do the same procedures for the 'resnet18.onnx'
-#   2) Download and do the same procedures for the 'labels.txt'
-#   2) Download and do the same procedures for the 'run_onnx_inference.py'
+#   3) Download the Train_Classification_Model_for_Glioma and upload it to your Google Drive
+#   4) Upload the zip to the Glioma_AI_detector.ipynb and unzip it by running the second cell. After unzipping, comment the entire second cell and run all the cells
+#   5) Open the provided Jupyter notebook (Train_Classification_Model_for_Glioma.ipynb) in Google Colab or your local environment and run all the cells until the 9th cell. 
+#   6) After running the 9th cell, you should get an onnx file like 'resnet18.onnx'
+#   7) In your Nvidia Jetson, add a folder called Glioma_AI_detector
+#   8) Unzip the Data.zip and drag and drop it inside the folder
+#   9) Download, and drag and drop it inside the folder for 'resnet18.onnx'
+#   10) Download, and drag and drop it inside the folder for 'labels.txt'
+#   11) Download, and drag and drop it inside the folder for 'run_onnx_inference.py'
 
 # ---------
 
 #   1) After setting up everything to run the project, cd into Glioma_AI_detector
-#   1) This is an example of the command that should look like, make sure to change the output filename every time you run it, in this case, “result” and add the relative path of the image you want to test from the dataset and replace the existing path in this demo code
+#   2) This is an example of the command that should look like, make sure to change the output filename every time you run it, in this case, “result”, and add the relative path of the image you want to test from the dataset and replace the existing path in this demo code
 
 # imagenet --model=resnet18.onnx --input_blob=input_0 --output_blob=output_0 --headless --labels=labels.txt Data/Testing/glioma/Te-gl_0010.jpg result.jpg 
