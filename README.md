@@ -1,6 +1,9 @@
 # Glioma_AI_Detector_Project
 
 # Description: This project focuses on developing a deep-learning model to detect glioma tumors from MRI images. The model utilizes convolutional neural networks (CNN) and data augmentation techniques to improve its accuracy and generalization. The project is implemented using TensorFlow and Keras, and it runs on Google Colab for training and testing.
+# Below are the examples of the end result when running the project
+![results](https://github.com/MaverickTopG/Glioma_AI_Detector_Project/assets/112916481/6bbaa9a7-b704-49d9-93ab-5158cf28acc3)
+![result](https://github.com/MaverickTopG/Glioma_AI_Detector_Project/assets/112916481/42cebb4a-25bf-4ada-8094-79cd1d1143df)
 
 # -----------
 
